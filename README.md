@@ -52,3 +52,5 @@ During Lab 1, team FoodFast successfully initialized the GitHub repository using
 
 ## Next Step
 In Lab 2, our team will move into opportunity scanning, deeper problem selection, and initial target user verification to refine the FoodFast business model.
+
+Update README with clearer project description
