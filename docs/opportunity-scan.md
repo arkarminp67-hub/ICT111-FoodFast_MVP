@@ -26,3 +26,14 @@
 | Idea 4 | Simple web app prototype | Figma, HTML/CSS/JS, Google Sheets | Vendor menus, active digital order queues | Medium | Yes |
 | Idea 5 | Figma clickable prototype | Figma software, UI layouts | Student listings, course codes, expert categories | Medium | Yes |
 | Idea 6 | Form-based MVP | Google Forms, Google Sheets | Attendee IDs, timestamps, event metrics | Low | Yes |
+
+## NUF Scoring Matrix
+
+| Idea | New | Useful | Feasible | Total | Rank | Notes |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| Idea 1: Deadline Dashboard | 3 | 4 | 5 | 12 | 2 | Good utility but simple layout |
+| Idea 2: Cafe Inventory Web App | 3 | 4 | 4 | 11 | 4 | Requires manual vendor data updates |
+| Idea 3: Campus Lost & Found | 4 | 4 | 4 | 12 | 2 | Strong concept but secondary to food queue |
+| Idea 4: FoodFast Pre-Ordering App | 4 | 5 | 5 | 14 | 1 | Winner: High utility and no physical hardware risk |
+| Idea 5: Peer-Learning Matcher | 3 | 3 | 3 | 9 | 6 | Lower feasibility for student matching data |
+| Idea 6: Event Attendance Tracker | 2 | 3 | 5 | 10 | 5 | High feasibility but low entrepreneurial urgency |
