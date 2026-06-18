@@ -52,3 +52,11 @@ During Lab 1, team FoodFast successfully initialized the GitHub repository using
 
 ## Next Step
 In Lab 2, our team will move into opportunity scanning, deeper problem selection, and initial target user verification to refine the FoodFast business model.
+## Selected IT Venture Direction
+Our team selected a campus food pre-ordering application named FoodFast. The target users are university students and faculty who lose valuable time waiting in peak cafeteria queues, currently forcing them to skip meals or arrive late to class. We selected this direction because it scored strongly on our NUF framework as a useful, highly achievable software platform that requires absolutely no physical IoT hardware deployment or complex cybersecurity implementation to prototype successfully.
+
+## Current Status
+In Lab 02, our team reviewed our initial concepts, observed and mapped six real-world IT opportunities, mapped out technology tools, and calculated matrix rankings using NUF parameters in our spreadsheet. We formally selected FoodFast as our semester project and configured our active project management issues tracker on GitHub.
+
+## Next Step
+In Lab 03, we will shift into active customer problem discovery by constructing target validation questionnaires and gathering data directly from campus users.
