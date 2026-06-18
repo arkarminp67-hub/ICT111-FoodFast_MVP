@@ -1,4 +1,4 @@
-# FoodFast
+# ICT111-FoodFast-MVP
 
 ## Course Information
 * **Course Code:** ICT111
