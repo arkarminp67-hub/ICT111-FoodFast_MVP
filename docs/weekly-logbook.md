@@ -53,6 +53,3 @@ We rejected Idea 2 (Cafe Inventory Web App) because it relies heavily on constan
 - NUF scoring file: `/data/opportunity-scoring.xlsx`
 - Selected opportunity file: `/docs/selected-opportunity.md`
 - GitHub issue screenshot: Captured on workspace dashboard page.
-
-### Plan for Lab 03
-Our team will construct customer discovery survey scripts to collect explicit queue times and student validation patterns next week.
