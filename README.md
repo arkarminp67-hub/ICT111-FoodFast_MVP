@@ -58,5 +58,16 @@ Our team selected a campus food pre-ordering application named FoodFast. The tar
 ## Current Status
 In Lab 02, our team reviewed our initial concepts, observed and mapped six real-world IT opportunities, mapped out technology tools, and calculated matrix rankings using NUF parameters in our spreadsheet. We formally selected FoodFast as our semester project and configured our active project management issues tracker on GitHub.
 
+### Lab 03 Status (Current Week)
+In Lab 03, our team executed our active customer problem discovery phase. We designed an objective, non-leading 7-stage questionnaire and successfully gathered data patterns from **40 target campus profiles** (32 students and 8 faculty staff members). 
+
+We compiled these findings inside `/data/raw-responses.xlsx`, building a dynamic analytics model with uppercase Excel formulas and validation charts. The empirical results clearly proved our core problem statement:
+* **The Queue Bottleneck:** **80%** of respondents spend more than 10 minutes waiting in line during peak hours.
+* **The Academic Problem Multiplier:** **72.5%** of surveyed campus users have actively skipped meals or arrived late to class due to these lines.
+* **UI/UX Direction Lock-in:** An overwhelming **77.5%** preference for digital QR-code wallets over cash or credit cards has redirected our engineering focus to prioritize mobile-first QR checkout screens.
+* **Market Fit:** The app achieved an average adoption interest score of **4.55 / 5.00**.
+
+---
+
 ## Next Step
-In Lab 03, we will shift into active customer problem discovery by constructing target validation questionnaires and gathering data directly from campus users.
+In Lab 04, our team will take these verified customer pain points and process them directly into a detailed **Value Proposition Canvas (VPC)** to map our MVP's specific functional modules against our validated user constraints.
