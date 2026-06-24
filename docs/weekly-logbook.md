@@ -53,27 +53,32 @@ We rejected Idea 2 (Cafe Inventory Web App) because it relies heavily on constan
 - NUF scoring file: `/data/opportunity-scoring.xlsx`
 - Selected opportunity file: `/docs/selected-opportunity.md`
 - GitHub issue screenshot: Captured on workspace dashboard page.
-## Lab 03: Active Customer Problem Discovery
+## Lab 03: Customer Problem Discovery
 
 ### What We Completed
-* Formulated a 7-stage customer validation questionnaire covering campus roles, queue delays, meal-skipping frequencies, and platform adoption willingness.
-* Gathered and compiled survey response data for 40 individual target users (32 students and 8 faculty staff members) to analyze our problem space.
-* Built out a multi-tab analytical file (`raw_data.xlsx`) using Excel calculation formulas (`COUNTIF`, `AVERAGE`, `COUNTA`) to dynamically evaluate user friction points.
-* Generated embedded data visualizations including automated charts analyzing campus frustrations and peak wait times.
+1. Formulated a 9-question non-leading discovery survey script.
+2. Gathered field observation data and analyzed survey responses from 40 campus participants.
+3. Constructed an Assumption-Evidence validation matrix to align our MVP strategy with actual user data.
+
+### Selected Opportunity
+FoodFast: Smart Vendor Pre-Ordering Application
+
+### Why We Selected It
+Our customer discovery data proved that saving the 11–20 minute queue window is the most useful value proposition for our users.
+
+### What We Rejected
+We rejected adding complex physical order-pickup lockers or sensor systems because our data shows that users simply want a clear digital order status screen, keeping our development highly feasible without IoT.
 
 ### What We Learned
-* **Data Over Assumptions:** Validating with real numbers proved our problem is severe—knowing that 80% of users wait over 10 minutes provides a quantitative baseline for our MVP.
-* **Dynamic Excel Modeling:** Learned how to transform raw user text responses into clean, visual percentages using formal uppercase Excel logical functions.
-* **Data-Driven Engineering:** Learned how data analysis guides user-interface design; recognizing high preferences for certain payment options shifts our core technical focus early on.
-
-### Problems or Difficulties
-* Finding a way to format the raw database structure cleanly so text strings could easily be parsed into dynamic dashboard summaries.
-* Ensuring the question matrix remained highly relevant to both tightly scheduled faculty staff and high-volume student groups.
+1. Never ask leading questions that pitch the solution too early; focus entirely on past user behavior.
+2. 72.5% of our campus peers skip meals due to queues, making this a high-impact problem to solve.
+3. Data patterns should drive your feature priority list, such as focusing on mobile wallet fields first.
 
 ### Evidence of Work
-* Customer validation data file: `/data/raw_data.xlsx`
-* Logbook progression file: `/docs/weekly-logbook.md`
-* Internal team data allocation notes: Appended to project workspace docs.
+* Customer Questions: `/docs/customer-questions.md`
+* Problem Notes: `/docs/problem-notes.md`
+* Hypothesis Validation Matrix: `/docs/assumption-evidence-table.md`
+* Discovery Summary: `/docs/customer-discovery-summary.md`
 
-### Decision Made This Week
-Based on our validation analysis showing a massive 77.5% preference for mobile payments, **Arkar Min Paing** decided to prioritize UI design mockups for digital QR-code wallets over standard credit cards. Additionally, because 72.5% of respondents explicitly stated they have skipped campus meals due to queues, **Thant Zin** locked down the app's primary value metric: eliminating peak line wait-times completely through remote pre-ordering. **Mi Su Zin Swar** consolidated these core metrics into our validation tracker to build our presentation slides.
+### Plan for Lab 04
+We will begin mapping out our system's core feature architecture and design our initial application user flow diagrams.
