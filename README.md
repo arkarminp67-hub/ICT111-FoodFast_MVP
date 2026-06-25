@@ -71,3 +71,39 @@ We compiled these findings inside `/data/raw-responses.xlsx`, building a dynamic
 
 ## Next Step
 In Lab 04, our team will take these verified customer pain points and process them directly into a detailed **Value Proposition Canvas (VPC)** to map our MVP's specific functional modules against our validated user constraints.
+---
+
+## Lab 04: User Persona, Requirements, and User Stories
+
+### Primary Target User
+Our primary user base consists of time-constrained university students and busy faculty members who experience critical scheduling conflicts during lunch rush windows.
+
+### Persona Summary
+* **Persona Name:** Min Khant
+* **User Type:** Time-Constrained Student
+* **Main Goal:** Purchase food inside a strict 20-minute lecture interval.
+* **Main Pain Point:** Spending 15+ minutes caught in physical lines.
+* **Current Workaround:** Skipping lunch entirely or using the inefficient peer "Line Scout" system.
+
+### Key Requirements Matrix
+| Req ID | Requirement Specification | Priority | Related Lab 03 Evidence Reference |
+|---|---|---|---|
+| **FR-01** | Display interactive vendor menu dashboards. | Must | Avoids item depletion anxiety (15% of survey data). |
+| **FR-02** | Process form pre-orders and issue digital receipts. | Must | Bypasses 10+ minute line locks (80% of survey data). |
+| **FR-03** | Display real-time status updates (Pending/Ready). | Must | Solves paper ticket loss/mix-up confusion. |
+| **NFR-01** | Mobile-responsive client-side web interface setup. | Must | Users require on-the-go browsing during lecture transitions. |
+
+### MVP Feature Scope
+| Feature | Priority | Included in Final Prototype? |
+|---|---|---|
+| Digital Menu Interface Components | Must | **Yes** |
+| Simulated Order Form Submission Routing | Must | **Yes** |
+| Dynamic Live Status Notification Tracker | Must | **Yes** |
+| Physical Pickup Counter Locker Integration | Won't | **No (IoT Constraint Excluded)** |
+
+### Diagram Links
+* 📊 [User Flow Chart Document](diagrams/user-flow.png)
+* 📊 [System Use Case Diagram](diagrams/use-case-diagram.png)
+
+### GitHub Contribution Evidence
+All group members have contributed equally to this repository milestone documentation through direct architectural design, file commits, issues tracking, and data synthesis.
