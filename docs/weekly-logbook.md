@@ -98,4 +98,20 @@ We will begin mapping out our system's core feature architecture and design our 
 * **Arkar Min Paing:** Requirements writing, system table setups, and repository documentation merges.
 
 ### Plan for Lab 05
-We will transition our formalized requirements into actionable architecture designs and interface layouts next week.
+We will transition our formalized requirements into actionable architecture designs and interface layouts next week.## ## Lab 05: Product Concept and UI/UX Wireframe
+
+### What We Completed
+1. Formulated a targeted product concept statement explicitly outlining FoodFast boundaries, university user parameters, and MVP restrictions tailored to the RSU campus ecosystem.
+2. Built a complete Feature-Requirement Mapping Matrix matching functional view states directly to Lab 04 system requirement IDs (`FR-01` through `FR-12`) to guarantee absolute traceability.
+3. Drafted a comprehensive Wireframe Specification outlining interface layouts, strict component consistency rules, and essential functional view properties.
+4. Modeled systematic navigation pathways through an interactive user flow mapping diagram generated via Mermaid logic loops to trace state transitions.
+5. Captured six comprehensive, high-fidelity UI/UX wireframe screenshots directly from our live single-page web interface draft—utilizing realistic Rangsit University vendor datasets rather than empty placeholder shapes.
+
+### Member Contribution Logs
+- **Thant Zin:** Authored the core `/docs/product-concept.md` layout, established target scope metrics, captured the 6 screen state baselines, and structured the `/wireframes/` directory files.
+- **Arkar:** Engineered the `/docs/feature-requirement-mapping.md` traceability matrix tables and modeled systematic application routing logic via the `user-flow.mmd` Mermaid diagram structure.
+- **Mi Su Zin:** Assembled the structural `/docs/wireframe-specification.md` guidelines, documented consistency metrics, and authored the primary `README.md` progress summaries.
+- 
+### Plan for Lab 06
+We will transform our validated wireframe baseline blueprints into interactive frontend code blocks, mapping state handlers directly to live mock data structures.
+
