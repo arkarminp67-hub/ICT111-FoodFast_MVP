@@ -107,3 +107,20 @@ Our primary user base consists of time-constrained university students and busy 
 
 ### GitHub Contribution Evidence
 All group members have contributed equally to this repository milestone documentation through direct architectural design, file commits, issues tracking, and data synthesis.
+
+## Lab 05: Product Concept and UI/UX Wireframe
+
+### What We Completed
+1. Formulated a targeted product concept statement explicitly outlining FoodFast boundaries, university user parameters, and MVP restrictions tailored to the RSU campus ecosystem.
+2. Built a complete Feature-Requirement Mapping Matrix matching functional view states directly to Lab 04 system requirement IDs (`FR-01` through `FR-12`) to guarantee absolute traceability.
+3. Drafted a comprehensive Wireframe Specification outlining interface layouts, strict component consistency rules, and essential functional view properties.
+4. Modeled systematic navigation pathways through an interactive user flow mapping diagram generated via Mermaid logic loops to trace state transitions.
+5. Captured six comprehensive, high-fidelity UI/UX wireframe screenshots directly from our live single-page web interface draft—utilizing realistic Rangsit University vendor datasets rather than empty placeholder shapes.
+
+### Member Contribution Logs
+* **Thant Zin:** Product concept profile drafting (`product-concept.md`), wireframe asset screen captures, and terminal operations sync.
+* **Arkar:** Feature-to-requirement matrix compilation (`feature-requirement-mapping.md`) and user flow diagram assembly (`user-flow.mmd`).
+* **Mi Su Zin:** Wireframe specification documentation (`wireframe-specification.md`), weekly contribution logbook compilation (`weekly-logbook.md`), and master repository documentation merges.
+
+### Plan for Lab 06
+We will transform our validated wireframe baseline blueprints into interactive frontend code blocks, mapping state handlers directly to live mock data structures.
