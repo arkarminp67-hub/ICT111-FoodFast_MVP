@@ -1,0 +1,4 @@
+order_id,user_id,items_ordered,total_amount,order_status,timestamp
+ORD-1001,USR001,ITEM99 (1),4.50,Completed,2026-07-09 11:15:00
+ORD-1002,USR002,ITEM99 (2),9.00,Ready for Pickup,2026-07-09 12:45:00
+ORD-1003,USR003,ITEM45 (1),5.00,Preparing,2026-07-09 13:00:00
