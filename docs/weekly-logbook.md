@@ -150,3 +150,34 @@ We will transform these validated architectural layout schemes and logical table
 
 ### Plan for Lab 08
 We will execute our structured experiment scripts with university student testers, collect quantitative metrics, and synthesize our findings to optimize user experience.
+
+# Lab 08 - Customer Validation and Analytics Sheet (Date: 2026-07-16)
+
+## What We Completed
+* Formulated a structured campus validation dataset to catalog real user feedback from our MVP testing runs, standardizing transaction metrics across target student and staff cohorts[cite: 5].
+* Built a comprehensive validation tracking matrix in `/data/validation-results.csv`, mapping user profiles, completion times, and task completion statuses to explicit functional requirements[cite: 5].
+* Formulated a customer validation overview within `/docs/customer-validation-summary.md` highlighting target user profiles, test execution frameworks, and main functional workflow tasks[cite: 5].
+* Modeled systematic performance evaluation insights in `/docs/analytics-insights.md` interpreting key quantitative indicators such as a calculated 80% task success rate, average interest, and average satisfaction ratings[cite: 5].
+* Rendered an embedded Power BI active validation dashboard screenshot capturing real-time metrics, regional user rating breakdowns, and critical visual statistics[cite: 5].
+* Populated a definitive strategic decision paper in `/docs/mvp-decision.md` detailing the analytical evidence, key user friction metrics, and our structured "Revise and Persevere" business pathway[cite: 5].
+* Consolidated all systemic system documentation architectures to update the core repository README.md and weekly progress structures[cite: 5].
+
+## Member Contribution Logs
+* **Thant Zin**: Engineered the raw user validation database structure, assembled 20 clean test logs in `/data/validation-results.csv`, and authored the formal logistics summary in `/docs/customer-validation-summary.md`[cite: 5].
+* **Arkar**: Developed the visual dashboard components in Power BI, drafted the analytical metric trends in `/docs/analytics-insights.md`, and identified layout friction points across requirements[cite: 5].
+* **Mi Su Zin**: Authored the strategic validation verdict in `/docs/mvp-decision.md`, mapped actionable interface improvement issues on GitHub, and finalized team reflection entries and log structures[cite: 5].
+
+## Group Reflection
+The transition from theoretical MVP testing to actual user validation allowed our team to look beyond optimistic assumptions and confront hard usability data[cite: 4]. Processing our metrics through a standardized analytics workbook revealed that while students are highly motivated to use FoodFast (evidenced by our high 4.15/5 interest rating), checkout field friction and ambiguous progress status displays directly limited operational efficiency[cite: 5]. Running this analytical loop early in the semester has saved us substantial rewrite time and established a highly transparent, data-driven framework for our upcoming development sprints[cite: 5].
+
+## Tracked GitHub Issues This Week
+* **Issue 1:** Collect or clean validation data for own group case (Closed)
+* **Issue 2:** Complete validation-results.xlsx / validation-results.csv (Closed)
+* **Issue 3:** Write customer-validation-summary.md (Closed)
+* **Issue 4:** Write analytics-insights.md (Closed)
+* **Issue 5:** Write mvp-decision.md (Closed)
+* **Issue 6:** Improve prototype feature based on validation evidence (In Progress)
+* **Issue 7:** Update README and weekly logbook for Lab 08 (Closed)
+
+## Plan for Lab 09
+* We will implement targeted user interface revisions to resolve the discovered checkout input overload and simplify state transitions in preparation for the final deployable prototype phase.
