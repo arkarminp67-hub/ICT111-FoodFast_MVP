@@ -1,0 +1,21 @@
+TestID,TaskName,Notes,ConfusionPoint,MostUsefulFeature,MVPDecisionSignal,UserType,SuccessRate,Rating
+T001,Submit pre-order,Could submit pre-order easily,None,Pre-ordering,Validated,Student,1,5
+T002,Search food item,Search worked but labels are small,Dashboard location,Search/filter,Partial,Student,1,4
+T003,Check order status,Could not understand active status,Status wording,Status tracking,Partial,Student,0,3
+T004,View food detail,Detail screen was clear and helpful,None,Detail view,Validated,Student,1,5
+T005,Submit pre-order,Required fields need clear markings,Required fields,Submit form,Partial,Student,1,4
+T006,Update merchant status,Admin page was useful for canteen,None,Admin update,Validated,Staff,1,5
+T007,Search food item,Fast search on mobile device,None,Search/filter,Validated,Student,1,5
+T008,Check dashboard summary,Did not know where to click first,Dashboard location,Dashboard summary,Partial,Student,0,3
+T009,View food detail,Detail page was understandable,None,Detail view,Validated,Student,1,4
+T010,Update merchant status,Admin update worked instantly,None,Admin update,Validated,Staff,1,5
+T011,Submit pre-order,Submission confirmation was clear,None,Submit form,Validated,Student,1,5
+T012,Search food item,Expected category filters on top,Required fields,Search/filter,Partial,Student,1,4
+T013,Check order status,Status exists but needs better font,Status wording,Status tracking,Partial,Student,1,3
+T014,Check dashboard summary,Dashboard useful after testing,None,Dashboard summary,Validated,Student,1,4
+T015,Update merchant status,Useful for campus staff workflow,None,Admin update,Validated,Staff,1,5
+T016,Submit pre-order,Too many required fields on screen,Required fields,Submit form,Revise,Student,0,2
+T017,Search food item,Search was fast and useful,None,Search/filter,Validated,Student,1,5
+T018,View food detail,Photo and description were great,None,Detail view,Validated,Student,1,5
+T019,Check dashboard summary,Chart labels need better contrast,Status wording,Dashboard summary,Revise,Student,0,2
+T020,Check order status,Status was easy after checkout,Admin button,Status tracking,Validated,Student,1,4
