@@ -181,3 +181,11 @@ We will execute our structured experiment scripts with university student tester
 
 ### Plan for Lab 09
 * We will implement targeted user interface revisions to resolve the discovered checkout input overload and simplify state transitions in preparation for the final deployable prototype phase.
+## Lab 09: Legal, Ethical, Security, and Risk Assessment
+
+### What We Completed
+* Created a comprehensive PII data inventory in [`/data/data-inventory.csv`](./data/data-inventory.csv).
+* Modeled operational and technical system threats in [`/data/risk-register.csv`](./data/risk-register.csv).
+* Cataloged open-source software packages and media licensing in [`/data/third-party-assets-register.csv`](./data/third-party-assets-register.csv).
+* Published core compliance documentation including [`/docs/privacy-and-data-protection.md`](./docs/privacy-and-data-protection.md), [`/docs/security-risk-check.md`](./docs/security-risk-check.md), and [`/docs/legal-ethical-checklist.md`](./docs/legal-ethical-checklist.md).
+* Updated system functional and non-functional baseline requirements in [`/docs/updated-requirements-note.md`](./docs/updated-requirements-note.md).
