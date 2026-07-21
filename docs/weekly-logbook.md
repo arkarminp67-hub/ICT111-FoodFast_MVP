@@ -181,3 +181,23 @@ The transition from theoretical MVP testing to actual user validation allowed ou
 
 ## Plan for Lab 09
 * We will implement targeted user interface revisions to resolve the discovered checkout input overload and simplify state transitions in preparation for the final deployable prototype phase.
+
+# Lab 09 - Legal, Ethical, and Security Assessment (Date: 2026-07-21)
+
+## What We Completed
+* Conducted a thorough data privacy audit and created `/data/data-inventory.csv`.
+* Modeled system security threats, probabilities, and mitigation actions inside `/data/risk-register.csv`.
+* Formulated third-party open-source licensing logs in `/data/third-party-assets-register.csv`.
+* Authored compliance documentation including privacy policies, legal checklists, security risk assessments, and updated requirement notes.
+* Integrated privacy and security controls into master system requirements.
+
+## Member Contribution Logs
+* **Thant Zin**: Mapped student PII data inventory flows, authored `/docs/privacy-and-data-protection.md`, and drafted consent statements.
+* **Arkar**: Led technical security threat modeling, compiled `/docs/security-risk-check.md`, and built the system risk register.
+* **Mi Su Zin**: Cataloged open-source software licenses in `/docs/ip-and-third-party-assets.md`, created GitHub issues, and updated weekly progress summaries.
+
+## Group Reflection
+Evaluating legal, ethical, and security boundaries allowed our team to view FoodFast as a production-grade campus system. Protecting student data and respecting third-party IP are just as critical to product success as building intuitive UI screens.
+
+## Plan for Lab 10
+* Complete final prototype codebase integration, apply security controls, and prepare the master presentation demo.
