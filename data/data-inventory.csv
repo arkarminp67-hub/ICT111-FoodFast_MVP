@@ -1,0 +1,8 @@
+Code snippet
+
+Data_Field,Category,Sensitive_YN,Purpose,Retention_Period,Protection_Method
+Student_ID,Personal,Yes,Authentication & order verification,Academic semester,Encrypted database
+Full_Name,Personal,No,Order display for canteen pickup,30 days,Access-controlled UI
+Phone_Number,Contact,Yes,SMS notification for ready food,30 days,Masked on public view
+Order_History,Transactional,No,Analytics and menu recommendations,1 year,Anonymized after 30 days
+Payment_Token,Financial,Yes,Third-party payment gateways,Session only,Never stored on local DB
