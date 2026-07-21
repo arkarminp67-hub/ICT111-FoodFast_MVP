@@ -1,0 +1,5 @@
+Risk_ID,Category,Description,Probability_1_5,Impact_1_5,Risk_Score,Mitigation_Strategy
+RSK-01,Data Privacy,Student phone numbers or order history leaked during checkout,2,5,10,Implement HTTPS encryption and mask sensitive phone data on screen
+RSK-02,Security,Unauthorized access to canteen vendor admin panel,2,4,8,Require multi-factor authentication or secure vendor credentials
+RSK-03,Third-Party IP,Using uncredited canteen logos or copyrighted UI icon sets,3,3,9,Use open-source MIT icons (Lucide/FontAwesome) and free royalty image
+RSK-04,System Reliability,Database crash during peak lunch hours (11 AM - 1 PM),3,4,12,Set up auto-scaling cloud database instances and local caching
