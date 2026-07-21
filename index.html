@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodFast RSU — Campus Dining MVP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <h1>FoodFast <span>RSU</span></h1>
+            </div>
+
+            <div class="mode-switcher-card">
+                <p class="view-label">Current view:</p>
+                <div class="mode-badge" id="currentModeBadge">Student Mode</div>
+                <button class="btn-switch" id="toggleModeBtn" onclick="toggleViewMode()">Switch to Vendor Admin</button>
+            </div>
+
+            <nav class="nav-menu" id="studentNav">
+                <button class="nav-item active" onclick="switchTab('kitchens')">
+                    <span class="icon">🏠</span> Campus Kitchens
+                </button>
+                <button class="nav-item" onclick="switchTab('deliveries')">
+                    <span class="icon">📋</span> Active Deliveries
+                </button>
+                <button class="nav-item" onclick="switchTab('profile')">
+                    <span class="icon">👤</span> Student Profile
+                </button>
+            </nav>
+
+            <nav class="nav-menu hidden" id="vendorNav">
+                <button class="nav-item active" onclick="switchTab('vendor-dashboard')">
+                    <span class="icon">🍳</span> Kitchen Dashboard
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button class="btn-logout"><span class="icon">📙</span> Log Out</button>
+                <div class="footer-meta">
+                    <p>ICT111 Lab 05 Project</p>
+                    <p>FR-08 & FR-09 Compliant</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="dropoff-selector">
+                    <span class="pin-icon">📍</span>
+                    <div class="dropoff-text">
+                        <label>Inside Campus Drop-off Point</label>
+                        <select id="dropoffSelect">
+                            <option value="b11">Building 11 (Digital Media Hub)</option>
+                            <option value="b6">Building 6 Canteen</option>
+                            <option value="b1">Building 1 Main Library</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="header-actions">
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="searchInput" placeholder="Search campus food options..."
+                            oninput="handleSearch()">
+                    </div>
+                    <button class="btn-basket" onclick="toggleCartDrawer()">
+                        🛒 Basket <span class="cart-badge" id="cartCount">0</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- TAB 1: Campus Kitchens (Student Mode) -->
+            <section id="tab-kitchens" class="tab-content active">
+                <!-- Promo Banner -->
+                <div class="promo-banner">
+                    <div class="promo-text">
+                        <span class="promo-tag">RSU CAMPUS EXCLUSIVE DELIVERY</span>
+                        <h2>Exam Prep Fuel Station</h2>
+                        <p>Get food delivered straight from on-campus food courts to your classroom desk or study room.
+                        </p>
+                    </div>
+                    <div class="promo-graphic">🍜🎓</div>
+                </div>
+
+                <!-- Dining Categories -->
+                <div class="section-title">
+                    <h3>Browse Campus Dining</h3>
+                </div>
+                <div class="filter-pills">
+                    <button class="pill active" onclick="filterCategory('all')">🍽️ All Canteens</button>
+                    <button class="pill" onclick="filterCategory('thai')">🇹🇭 Thai Dishes</button>
+                    <button class="pill" onclick="filterCategory('beverages')">🧋 Beverages</button>
+                </div>
+
+                <!-- Active Vendors Grid -->
+                <div class="section-header">
+                    <h3>Active Vendors Inside RSU</h3>
+                    <span class="meta-count" id="vendorCountText">Showing all vendors</span>
+                </div>
+
+                <div class="vendor-grid" id="vendorGrid">
+                    <!-- Cards dynamically loaded via script.js -->
+                </div>
+            </section>
+
+            <!-- TAB 2: Active Deliveries (Student Mode) -->
+            <section id="tab-deliveries" class="tab-content hidden">
+                <div class="section-title">
+                    <h3>Active Orders</h3>
+                </div>
+                <div class="delivery-card-panel" id="activeDeliveryPanel">
+                    <div class="courier-icon">🛵</div>
+                    <h4>FoodFast Courier dispatched from Campus Kitchen</h4>
+                    <p class="route-info">Route Destination: <strong id="deliveryDestination">Building 11 (Digital Media
+                            Hub)</strong></p>
+                    <p class="status-msg">Status: <span id="deliveryStatusText">Preparing your fresh student
+                            meal...</span></p>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar-fill" id="deliveryProgress"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 3: Student Profile -->
+            <section id="tab-profile" class="tab-content hidden">
+                <div class="section-title">
+                    <h3>Student Account Information</h3>
+                </div>
+                <div class="profile-card">
+                    <div class="avatar-box">🎓</div>
+                    <div class="profile-details">
+                        <h4>somchai.m67</h4>
+                        <p>somchai.m67@rsu.ac.th</p>
+                        <span class="badge-vip">FoodFast VIP Tier</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 4: Vendor Admin Dashboard -->
+            <section id="tab-vendor-dashboard" class="tab-content hidden">
+                <div class="section-title">
+                    <h3>Kitchen Management Operations Portal</h3>
+                    <p class="sub-text">Live incoming feeds from RSU classroom zones</p>
+                </div>
+
+                <div class="admin-grid">
+                    <div class="admin-panel">
+                        <div class="panel-header">
+                            <h4>Incoming Orders Queue</h4>
+                            <span class="live-dot">• LIVE</span>
+                        </div>
+                        <div class="queue-body" id="vendorQueue">
+                            <p class="empty-msg">No incoming active student orders received.</p>
+                        </div>
+                    </div>
+
+                    <div class="admin-panel">
+                        <div class="panel-header">
+                            <h4>Active Dispatch Log & Runner Assignments</h4>
+                        </div>
+                        <div class="metrics-row">
+                            <div class="metric-box">
+                                <label>ACTIVE ORDERS</label>
+                                <div class="metric-val" id="activeOrderMetric">0</div>
+                            </div>
+                            <div class="metric-box">
+                                <label>PENDING RUNNERS</label>
+                                <div class="metric-val highlight">4 Available</div>
+                            </div>
+                        </div>
+
+                        <h5>Dynamic Campus Dispatch Matrix</h5>
+                        <table class="dispatch-table">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Target Destination Hub</th>
+                                    <th>Preparation Phase Timeline</th>
+                                    <th>Assigned Student Runner</th>
+                                    <th>Operations Dispatch Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dispatchTableBody">
+                                <tr>
+                                    <td colspan="5" class="empty-msg">No routes active across campus.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Slide-over Order Basket / Drawer -->
+        <div class="cart-overlay" id="cartOverlay" onclick="toggleCartDrawer()"></div>
+        <div class="cart-drawer" id="cartDrawer">
+            <div class="drawer-header">
+                <h3>Your Campus Order Basket</h3>
+                <button class="btn-close" onclick="toggleCartDrawer()">✕</button>
+            </div>
+            <div class="drawer-body" id="cartItemsList">
+                <p class="empty-msg">Your basket is empty. Add items from the menu!</p>
+            </div>
+            <div class="drawer-footer">
+                <div class="summary-line">
+                    <span>Subtotal:</span>
+                    <strong id="cartSubtotal">฿0.00</strong>
+                </div>
+                <div class="summary-line">
+                    <span>Campus Delivery Fee:</span>
+                    <span class="free-text">FREE</span>
+                </div>
+                <div class="summary-line total">
+                    <span>Total:</span>
+                    <strong id="cartTotal">฿0.00</strong>
+                </div>
+                <button class="btn-confirm" onclick="checkoutOrder()">Confirm Order & Pay</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
