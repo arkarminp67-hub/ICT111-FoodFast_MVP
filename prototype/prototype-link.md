@@ -1,7 +1,7 @@
 # Live Web Prototype — FoodFast RSU
 
 ## 🔗 Live Application Access
-* **GitHub Pages Web App:** [https://arkarminp67-hub.github.io/ICT111-FoodFast_MVP/prototype/index.html](https://arkarminp67-hub.github.io/ICT111-FoodFast_MVP/prototype/index.html)
+* **GitHub Pages Web App:** [prototype/index.html)
 
 ## 🛠️ Testing Instructions
 1. **Browse & Search:** Search for items (e.g., "Holy Basil" or "Boba") or filter using category pills (`Thai Dishes`, `Beverages`).
