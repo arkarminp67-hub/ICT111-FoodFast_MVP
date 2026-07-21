@@ -2,7 +2,7 @@
 
 ## Prototype Platform
 - Platform: HTML5 / CSS3 / JavaScript Web Prototype (Hosted via GitHub Pages)
-- Prototype link: https://arkarminp67-hub.github.io/ICT111-FoodFast_MVP/prototype/
+- Prototype link: https://arkarminp67-hub.github.io/ICT111-FoodFast_MVP/prototype/index.html
 - Access note: Open the live link above in any modern browser (Chrome, Safari, Edge). If GitHub Pages is still deploying or unreachable, open `/prototype/index.html` directly in your web browser or view the code directly inside the repository `/prototype/` folder.
 - Last updated: 2026-07-21
 
