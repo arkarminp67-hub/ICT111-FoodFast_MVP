@@ -1,0 +1,29 @@
+{
+    "vendors": [
+        {
+            "id": 1,
+            "name": "P'Noi Holy Basil (กะเพราอาคาร 6)",
+            "category": "thai",
+            "location": "Building 6 Canteen",
+            "rating": 4.9,
+            "prepTimeMinutes": 12,
+            "popularItem": "Kra Pao Moo Grob",
+            "price": 55
+        },
+        {
+            "id": 2,
+            "name": "RSU Cyber Cafe & Boba Tea",
+            "category": "beverages",
+            "location": "Building 11 Lobby",
+            "rating": 4.7,
+            "prepTimeMinutes": 8,
+            "popularItem": "Signature Bubble Tea",
+            "price": 45
+        }
+    ],
+    "dropoffLocations": [
+        "Building 11 (Digital Media Hub)",
+        "Building 6 Canteen",
+        "Building 1 Main Library"
+    ]
+}
