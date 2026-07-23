@@ -203,3 +203,18 @@ We will execute our structured experiment scripts with university student tester
 * **Thant Zin**: Drafted the technical implementation strategy and workflow diagrams.
 * **Arkar**: Developed prototype interfaces, fixed checkout friction, and provided deployment links.
 * **Mi Su Zin**: Tracked feature completion matrices and compiled master project documentation.
+
+  
+## Lab 11: MVP Implementation Sprint 2 & Prototype Testing
+
+### What We Completed
+* Established operational and business metrics benchmarks in [`/docs/startup-metrics.md`](./docs/startup-metrics.md).
+* Executed user testing sessions and recorded usability refinements in [`/docs/prototype-testing-notes.md`](./docs/prototype-testing-notes.md).
+* Updated requirement implementation status tracking in [`/docs/feature-implementation-status.md`](./docs/feature-implementation-status.md).
+* Modeled metrics and system data execution in [`/diagrams/implementation-metrics-flow.mmd`](./diagrams/implementation-metrics-flow.mmd).
+* Integrated JSON mock data structures into [`/prototype/data.json`](./prototype/data.json).
+
+### Member Contribution Logs
+* **Thant Zin**: Defined conversion/fulfillment metrics and operational tracking charts.
+* **Arkar**: Conducted user usability testing and refined prototype UI responsiveness.
+* **Mi Su Zin**: Updated master requirement traceability matrices and team logbooks.
