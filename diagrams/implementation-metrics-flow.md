@@ -1,0 +1,10 @@
+flowchart TD
+    A[Lab 10 Basic Working Prototype] --> B[Review system-requirements.md]
+    B --> C[Audit completed, partial, pending features]
+    C --> D[Improve data handling with data.json]
+    D --> E[Add or improve search/filter/status updates]
+    E --> F[Create dashboard metrics in startup-metrics.md]
+    F --> G[Test full user journey & log testing notes]
+    G --> H[Capture updated screenshots in /screenshots/]
+    H --> I[Update GitHub README and feature status]
+    I --> J[Lab 11 Sprint 2 Evidence Complete]
