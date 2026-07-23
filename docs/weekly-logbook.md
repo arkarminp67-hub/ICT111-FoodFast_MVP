@@ -216,5 +216,22 @@ Evaluating legal, ethical, and security boundaries allowed our team to view Food
 * **Arkar**: Engineered the interactive prototype features, built the checkout UI, and configured `/prototype/prototype-link.md`.
 * **Mi Su Zin**: Constructed `/docs/feature-implementation-status.md`, managed GitHub deliverables, and authored weekly logbooks.
 
+* # Lab 11 - MVP Implementation Sprint 2 & Prototype Testing (Date: 2026-07-23)
+
+## What We Completed
+* Formulated key startup, business, and operational metrics in `/docs/startup-metrics.md`.
+* Conducted usability testing sessions with student consumers and vendor staff, logged feedback in `/docs/prototype-testing-notes.md`.
+* Refined JavaScript search/filter integration and added `data.json` mock data store.
+* Rendered metric tracking and data flows in `/diagrams/implementation-metrics-flow.mmd`.
+* Updated the master requirement-to-feature matrix in `/docs/feature-implementation-status.md`.
+
+## Member Contribution Logs
+* **Thant Zin**: Modeled business startup metrics, cycle time benchmarks, and designed metrics workflow diagrams.
+* **Arkar**: Led usability testing sessions, refined basket/search interactions, and built `/docs/prototype-testing-notes.md`.
+* **Mi Su Zin**: Consolidated testing notes, updated feature implementation status tables, and managed repository updates.
+
+## Group Reflection
+Testing Sprint 2 with actual users highlighted micro-interactions (like basket auto-opening and clearer search resets) that significantly improved usability. Combining business metrics with privacy compliance positions FoodFast for successful final deployment.
+
 ## Group Reflection
 Completing Lab 10 brought together all design, validation, security, and technical requirements into a functional prototype. Balancing feature delivery with privacy controls built during Lab 09 resulted in a reliable product ready for campus demonstration.
