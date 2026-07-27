@@ -218,3 +218,40 @@ We will execute our structured experiment scripts with university student tester
 * **Thant Zin**: Defined conversion/fulfillment metrics and operational tracking charts.
 * **Arkar**: Conducted user usability testing and refined prototype UI responsiveness.
 * **Mi Su Zin**: Updated master requirement traceability matrices and team logbooks.
+
+# README Update Template - Lab 12
+
+## Lab 12 - Landing Page and Digital Go-to-Market
+
+### Landing Page
+- Landing page folder/link: [`/landing-page/index.html`](https://arkarminp67-hub.github.io/ICT111-FoodFast_MVP/landing-page/)
+- Main CTA: **Pre-Order Your Meal Now** (Directs users directly to the prototype web application)
+- Prototype/demo link: [`/prototype/index.html`](https://arkarminp67-hub.github.io/ICT111-FoodFast_MVP/prototype/)
+
+### Go-to-Market Plan
+- Target early users: RSU undergraduate students attending lectures in Building 11 (Digital Media Hub) and Building 6 who regularly experience long canteen queue waits during peak lunch hours (11:00 AM – 1:00 PM).
+- Selected channels: Class LINE Chat Groups, Campus Poster QR Codes placed near canteen tables, and Instagram Stories (`@RSU_FoodFast`).
+- Main marketing message: "Skip the Line, Fuel Your Mind: RSU Campus Dining Delivered Fast."
+
+### Acquisition Metrics
+- Metric 1: **Awareness (Landing Page Views / QR Scans):** 620 views achieved (Target: 500 views).
+- Metric 2: **Interest (Click-Through Rate on CTA):** 48.3% CTR (Target: 35%).
+- Metric 3: **Conversion (Completed Order Checkouts):** 31.2% order completion rate (Target: 25%).
+
+### Screenshots
+- Landing page screenshot: `/screenshots/landing-page.png`
+- CTA screenshot: `/screenshots/call-to-action.png`
+
+### Requirement Alignment
+The landing page directly reflects key functional requirements from `system-requirements.md`:
+* **FR-01 (Campus Dining Overview):** Highlights real-time menu availability across Building 6 & 11 canteens.
+* **FR-03 (Streamlined Submission):** The primary CTA button ("Pre-Order Your Meal Now") bypasses landing friction and opens the active prototype's basket checkout flow.
+* **FR-08 & FR-12 (Status & Metrics):** Advertises the guaranteed 12-minute prep cycle time and real-time status tracking feature proven during testing.
+* **Privacy NFRs:** Features a dedicated "Responsible Data" badge assuring students that personal contact numbers are masked (`081-XXX-XX89`) across vendor displays.
+
+### Member Contributions
+| Member | Contribution | Commit/Issue Evidence |
+| --- | --- | --- |
+| **Thant Zin** | Formulated GTM channel strategy (`/docs/go-to-market-plan.md`) and acquisition metrics (`/docs/acquisition-metrics.md`). | Issue #1 |
+| **Arkar** | Designed responsive landing page (`/landing-page/index.html`, `style.css`), CTA script, and acquisition flowchart (`/diagrams/landing-page-to-prototype-flow.mmd`). | Issue #2 |
+| **Mi Su Zin** | Authored landing page copy (`/docs/landing-page-content.md`), channel messages (`/docs/marketing-message.md`), updated weekly logbook, and README. | Issue #3 & #4 |
