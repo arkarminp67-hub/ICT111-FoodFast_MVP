@@ -235,3 +235,21 @@ Testing Sprint 2 with actual users highlighted micro-interactions (like basket a
 
 ## Group Reflection
 Completing Lab 10 brought together all design, validation, security, and technical requirements into a functional prototype. Balancing feature delivery with privacy controls built during Lab 09 resulted in a reliable product ready for campus demonstration.
+
+# Lab 12 - Product Promotion, Landing Page, and Acquisition Strategy (Date: 2026-07-27)
+
+## What We Completed
+* Designed and built a responsive promotional landing page (`/landing-page/index.html`, `style.css`, `script.js`) featuring zero-queue value propositions and instant CTA links to the web application prototype.
+* Formulated a digital Go-To-Market (GTM) plan targeting RSU undergraduate students across high-friction canteen hubs in Building 6 and Building 11 (`/docs/go-to-market-plan.md`).
+* Drafted channel-specific marketing communications for LINE, Instagram, Campus QR Posters, and Student Email, completing 5-second clarity quality checks (`/docs/marketing-message.md`).
+* Recorded user acquisition funnel conversion metrics (620 views, 48.3% CTR, 31.2% checkout conversion) in `/docs/acquisition-metrics.md`.
+* Rendered the user acquisition conversion flow in `/diagrams/landing-page-to-prototype-flow.mmd`.
+* Updated the master project repository documentation and appended the Lab 12 update template to root `README.md`.
+
+## Member Contribution Logs
+* **Thant Zin**: Developed the Go-To-Market channel strategy, defined funnel metrics, and completed `/docs/go-to-market-plan.md` and `/docs/acquisition-metrics.md`.
+* **Arkar**: Coded the landing page UI layout, button interactions, live link access documentation, and created `/diagrams/landing-page-to-prototype-flow.mmd`.
+* **Mi Su Zin**: Authored landing page copy, channel messaging guidelines, updated `/docs/weekly-logbook.md`, and finalized the root `README.md` file.
+
+## Group Reflection
+Integrating a dedicated promotional landing page with our functional web prototype allowed us to validate both user acquisition strategies and product execution. Aligning our marketing hook directly with student friction points (tight class break transitions) yielded a strong 48.3% CTR during testing, proving the potential demand for FoodFast RSU on campus.
