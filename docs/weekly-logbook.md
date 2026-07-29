@@ -253,3 +253,20 @@ Completing Lab 10 brought together all design, validation, security, and technic
 
 ## Group Reflection
 Integrating a dedicated promotional landing page with our functional web prototype allowed us to validate both user acquisition strategies and product execution. Aligning our marketing hook directly with student friction points (tight class break transitions) yielded a strong 48.3% CTR during testing, proving the potential demand for FoodFast RSU on campus.
+
+# Lab 13 - Sales Scenario, Demo Script, and User Testing (Date: 2026-08-01)
+
+## What We Completed
+* Formulated the sales and usage scenario detailing student persona journey (`/docs/sales-scenario.md`).
+* Authored screen-by-screen demo script and rendered flow diagram (`/docs/demo-script.md`, `/diagrams/demo-flow.mmd`).
+* Structured and executed user testing sessions with 5 RSU students and vendors (`/docs/user-testing-plan.md`, `/docs/user-testing-results.md`, `/data/user-testing-results.csv`).
+* Prioritized post-testing fixes in `/docs/final-improvement-list.md`.
+* Prepared venture pitch outline (`/pitch/demo-outline.md`) and updated master `README.md`.
+
+## Member Contribution Logs
+* **Thant Zin**: Drafted sales scenario, led user testing execution, and generated testing results matrix and CSV data files.
+* **Arkar**: Authored step-by-step demo script, generated demo flowchart diagram, captured screenshots, and updated prototype access link.
+* **Mi Su Zin**: Prioritized final improvement list, structured pitch outline, updated weekly logbook, and finalized root README.
+
+## Group Reflection
+Conducting user testing before the final venture pitch provided vital feedback. Small usability enhancements, such as auto-opening the basket drawer and adjusting vendor display fonts, significantly raised our usability rating to 4.7/5.0.
