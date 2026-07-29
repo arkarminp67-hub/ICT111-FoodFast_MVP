@@ -255,3 +255,31 @@ The landing page directly reflects key functional requirements from `system-requ
 | **Thant Zin** | Formulated GTM channel strategy (`/docs/go-to-market-plan.md`) and acquisition metrics (`/docs/acquisition-metrics.md`). | Issue #1 |
 | **Arkar** | Designed responsive landing page (`/landing-page/index.html`, `style.css`), CTA script, and acquisition flowchart (`/diagrams/landing-page-to-prototype-flow.mmd`). | Issue #2 |
 | **Mi Su Zin** | Authored landing page copy (`/docs/landing-page-content.md`), channel messages (`/docs/marketing-message.md`), updated weekly logbook, and README. | Issue #3 & #4 |
+
+## Lab 13 - Sales Scenario, Demo Script, and User Testing
+
+### Overview & Demo Access
+- **Promotional Landing Page:** [Live Landing Page Link](https://arkarminp67-hub.github.io/ICT111-FoodFast_MVP/landing-page/)[cite: 1, 2]
+- **Web Prototype Demo:** [Live Web Prototype Link](https://arkarminp67-hub.github.io/ICT111-FoodFast_MVP/prototype/)[cite: 1, 2]
+- **Demo Script:** [`/docs/demo-script.md`](./docs/demo-script.md)
+- **Pitch Outline:** [`/pitch/demo-outline.md`](./pitch/demo-outline.md)
+
+### Sales Scenario Summary
+FoodFast resolves tight 15-minute class transition delays at RSU Building 6 and Building 11 canteens by allowing students to pre-order meals in 2 clicks and collect them in under 12 minutes without waiting in line.
+
+### User Testing Summary
+- **Participants:** 5 Testers (3 RSU Students, 2 Canteen Vendors)[cite: 4].
+- **Task Completion Rate:** 95.0%[cite: 4].
+- **Usability Satisfaction Rating:** 4.7 / 5.0.
+- **Detailed Results:** [`/docs/user-testing-results.md`](./docs/user-testing-results.md) and [`/data/user-testing-results.csv`](./data/user-testing-results.csv).
+
+### Screenshots & Artifacts
+- **Demo Flow Diagram:** `/diagrams/demo-flow.png`
+- **User Testing Evidence:** `/screenshots/user-testing-evidence.png`
+
+### Member Contributions
+| Member | Contribution | Commit/Issue Evidence |
+| --- | --- | --- |
+| **Thant Zin** | Authored sales scenario (`/docs/sales-scenario.md`), designed user testing plan (`/docs/user-testing-plan.md`), and analyzed results (`/docs/user-testing-results.md`). | Issue #1 & #3 |
+| **Arkar** | Created demo script (`/docs/demo-script.md`), demo flow diagram (`/diagrams/demo-flow.mmd`), prototype access guide (`/prototype/final-demo-link.md`), and screenshots. | Issue #2 |
+| **Mi Su Zin** | Built final improvement matrix (`/docs/final-improvement-list.md`), pitch outline (`/pitch/demo-outline.md`), logbook, and root `README.md`. | Issue #3 & #4 |
