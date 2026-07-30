@@ -1,0 +1,13 @@
+req_id,req_title,status,prototype_location,verification_method
+FR-01,Landing Screen,Completed,/landing-page/index.html,Visual Inspection
+FR-02,Primary Pathway,Completed,/prototype/index.html,User Flow Test
+FR-03,Data Input,Completed,#checkout-form,Form Submission Test
+FR-04,Data Storage,Completed,script.js (localStorage),Persistence Audit
+FR-05,Record List,Completed,#orders-list,UI Verification
+FR-06,Search Filter,Completed,#search-input,Functional Test
+FR-07,Detail View,Completed,#item-modal,Interaction Audit
+FR-08,Status Tracking,Completed,.status-stepper,State Change Test
+FR-09,Admin Function,Completed,#vendor-dashboard,Role Switch Audit
+FR-10,Validation,Completed,validatePhone(),Error Injection Test
+FR-11,Dashboard Metrics,Completed,#metrics-panel,Calculation Audit
+FR-12,Traceability,Completed,/docs/system-requirements.md,Documentation Check
