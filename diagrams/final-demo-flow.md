@@ -1,0 +1,13 @@
+flowchart TD
+    A[Student Scans QR Code / Enters Site] --> B[Promotional Landing Page FR-01]
+    B --> C[Click Pre-Order CTA Button]
+    C --> D[Explore Menu & Filter Dishes FR-02/06]
+    D --> E[Select Dish & Open Detail View FR-07]
+    E --> F[Add to Cart & Open Basket FR-03]
+    F --> G[Submit Student Info & Checkout FR-10]
+    G --> H[Save Order to LocalStorage FR-04]
+    H --> I[Track Live Order Status Stepper FR-08]
+    I --> J[Vendor Portal Receives Order FR-05/09]
+    J --> K[Student Phone Masked 081-XXX-XX89 FR-15]
+    K --> L[Vendor Updates Status to Ready]
+    L --> M[Student Pick Up Meal Zero Line]
