@@ -1,0 +1,4 @@
+order_id,student_name,phone_masked,building,stall_name,item_name,price_thb,status,timestamp
+ORD-101,Earth S.,081-XXX-XX89,Building 6,P Noi Thai Cook,Holy Basil Pork Rice,55,Ready,2026-07-31 11:48:10
+ORD-102,Mew P.,089-XXX-XX12,Building 11,Noodle Express,Tom Yum Pork Noodles,60,Preparing,2026-07-31 11:50:22
+ORD-103,Karn T.,062-XXX-XX45,Building 6,Smoothie Corner,Iced Green Tea,35,Received,2026-07-31 11:52:05
