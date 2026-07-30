@@ -1,0 +1,4 @@
+student_id,member_name,assigned_role,primary_contributions,issue_ownership
+6701001,Arkar,Technical & Prototype Lead,Prototype UI coding; LocalStorage state; Traceability matrices; Diagrams,Issue #1 & #2
+6701002,Thant Zin,Validation & Pitch Lead,User testing execution; Demo script; Pitch outline; CSV Data generation,Issue #3
+6701003,Mi Su Zin,PM & Documentation Lead,Final prototype report; Team reflections; Checklist; Weekly logbook; README,Issue #4
