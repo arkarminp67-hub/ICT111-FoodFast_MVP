@@ -1,0 +1,6 @@
+Code snippet
+
+tester_id,role,task_description,status,time_seconds,usability_rating,feedback
+T-01,RSU Student,Search item and complete pre-order,Pass,24,5/5,Very fast checkout flow
+T-02,RSU Student,Track live prep status,Pass,8,5/5,Clear progress stepper bar
+T-03,Canteen Vendor,Advance kitchen queue status,Pass,12,4/5,Request larger order number text
